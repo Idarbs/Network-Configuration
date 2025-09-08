@@ -5,6 +5,6 @@ This project showcases my ability to configure networks and network devices. It 
 
 - [ROAS Configuration](#ROAS)
 - [Office Configuration](#Office)
-- [Collapsed Core Configuration](#Collapsed)
+- [Collapsed Core & IPv6 Configuration](#Collapsed)
 - [OSPF Configurations](#OPSF)
 - [PAT Configuration](#PAT)

@@ -10,7 +10,7 @@ This project showcases my ability to configure networks and network devices. It 
 - [PAT Configuration](#PAT)
 
 # ROAS
-<img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" />
+<img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" /><br/>
 3 subnets and 3 VLANs, the routing takes care of the inter-VLAN routing 
 
 Current configuration : 1632 bytes

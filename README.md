@@ -8,3 +8,6 @@ This project showcases my ability to configure networks and network devices. It 
 - [Collapsed Core & IPv6 Configuration](#Collapsed)
 - [OSPF Configurations](#OPSF)
 - [PAT Configuration](#PAT)
+
+# ROAS
+<img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" />

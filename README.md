@@ -37,4 +37,8 @@ The Routers are also able to access the FTP server and download files from it. <
 <img width="383" height="133" alt="image" src="https://github.com/user-attachments/assets/99e5e24c-6a32-4e5a-97f8-265fa316cd55" /><br/>
 <img width="446" height="155" alt="image" src="https://github.com/user-attachments/assets/c21a5d16-e50b-4c9f-9b84-6e412d58dcd0" /><br/>
 
+<img width="572" height="262" alt="image" src="https://github.com/user-attachments/assets/8599f657-7074-4dd2-bd92-6af9f4bcdbd4" /><br/>
+Rapid-PVST is enabled on all switches. All the switches have the default priority. Switch 2 becomes the Root Bridge because it has the lowest MAC Address out of the 4 switches.<br/>
 
+<img width="423" height="374" alt="image" src="https://github.com/user-attachments/assets/46740ad1-ed7c-4024-8980-6d0862b71f50" /><br/>
+Port Security is enabled on both access switches, with a maximum of 1 MAC Address per interface, with the one exception being the interface that has the end host and the VoIP phone.<br/>

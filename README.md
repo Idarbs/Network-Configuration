@@ -32,3 +32,9 @@ The default gateways of the end hosts are configured to be the Virtual IP used b
 
 Logging is also enabled and is sent to the server from the routers. <br/>
 <img width="659" height="564" alt="image" src="https://github.com/user-attachments/assets/8fda4907-b288-4f7b-b8b2-e8533988fcf9" /><br/>
+
+The Routers are also able to access the FTP server and download files from it. <br/>
+<img width="383" height="133" alt="image" src="https://github.com/user-attachments/assets/99e5e24c-6a32-4e5a-97f8-265fa316cd55" /><br/>
+<img width="446" height="155" alt="image" src="https://github.com/user-attachments/assets/c21a5d16-e50b-4c9f-9b84-6e412d58dcd0" /><br/>
+
+

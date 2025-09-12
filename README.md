@@ -37,6 +37,7 @@ Logging is also enabled and is sent to the server from the routers. All alerts w
 
 The Routers are also able to access the FTP server and download files from it. <br/>
 <img width="383" height="133" alt="image" src="https://github.com/user-attachments/assets/99e5e24c-6a32-4e5a-97f8-265fa316cd55" /><br/>
+NOTE: This screenshot was taken prior to the manual configuration of the server's IP Address (which is why the IP Address is different from the one in the overview of the network). <br/>
 <img width="446" height="155" alt="image" src="https://github.com/user-attachments/assets/c21a5d16-e50b-4c9f-9b84-6e412d58dcd0" /><br/>
 
 <img width="572" height="262" alt="image" src="https://github.com/user-attachments/assets/8599f657-7074-4dd2-bd92-6af9f4bcdbd4" /><br/>

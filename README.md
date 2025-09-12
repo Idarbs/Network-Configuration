@@ -26,11 +26,11 @@ Port Security is enabled on the access switch; only 1 device is allowed on each 
 <img width="563" height="634" alt="image" src="https://github.com/user-attachments/assets/44b7b5f1-36e4-48d2-9ca2-3b4fedc8ca2a" /><br/>
 Multiple hosts connected to access switches, with a couple of servers running, and two routers configured with HSRP as well as being DHCP servers.<br/>
 The servers have manually configured addresses; the first 10 usable IP addresses are excluded from the DHCP pool. <br/>
-The default gateways of the end hosts are configured to be the Virtual IP used by both routers. <br/>
+The default gateways of the end hosts are configured to be the Virtual IP used by both routers. Router 2 is configured as the active router, and Router 3 is configured as the standby router. Preemption is also enabled.<br/>
 <img width="502" height="400" alt="image" src="https://github.com/user-attachments/assets/0f477a59-2110-4ae9-9e56-d420b94ccdca" /><br/>
 <img width="512" height="350" alt="image" src="https://github.com/user-attachments/assets/0001f96f-04c2-4931-ae07-6f69db236323" /><br/>
 
-Logging is also enabled and is sent to the server from the routers. <br/>
+Logging is also enabled and is sent to the server from the routers. All alerts will be sent to the server regardless of severity. <br/>
 <img width="659" height="564" alt="image" src="https://github.com/user-attachments/assets/8fda4907-b288-4f7b-b8b2-e8533988fcf9" /><br/>
 
 The Routers are also able to access the FTP server and download files from it. <br/>

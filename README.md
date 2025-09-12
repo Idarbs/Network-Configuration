@@ -8,6 +8,7 @@ This project showcases my ability to configure networks and network devices. It 
 - [Collapsed Core & IPv6 Configuration](#Collapsed)
 - [OSPF Configurations](#OPSF)
 - [PAT Configuration](#PAT)
+- [Known Issues & Misconfigurations](#Issues)
 
 # ROAS
 <img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" /><br/>
@@ -46,3 +47,13 @@ Rapid-PVST is enabled on all switches. All the switches have the default priorit
 <img width="434" height="298" alt="image" src="https://github.com/user-attachments/assets/9792d320-4599-4b1a-b5cb-d43649efdbdb" /><br/>
 Port Security is enabled on both access switches, with a maximum of 1 MAC Address per interface, with the one exception being the interface that has the end host and the VoIP phone.<br/>
 DHCP Snooping is also enabled on all the switches, with the interfaces connected to end hosts being untrusted, and the interfaces connected to other network devices being trusted.<br/>
+
+# Collapsed
+<img width="655" height="622" alt="image" src="https://github.com/user-attachments/assets/51b894cf-23c3-42d6-a890-1ebbb86624c1" /> <br/>
+This is a standard two-tier campus design, 3 access switches, and 2 distribution switches. There are 3 VLANs, and the distribution switches handle the Inter-VLAN routing. <br/>
+Each SVI uses the first available address of the respective VLAN Subnet, and all hosts can ping each other. <br/>
+<img width="408" height="193" alt="image" src="https://github.com/user-attachments/assets/5aae82d6-6928-44cb-88dd-37a2e1e7ccfb" /><br/>
+<img width="426" height="194" alt="image" src="https://github.com/user-attachments/assets/7423cdc1-c7a5-4873-92a4-fbf5102b1594" /><br/>
+<img width="408" height="197" alt="image" src="https://github.com/user-attachments/assets/eb365f07-5cdf-49a3-a215-c11fe2c50b0b" /><br/>
+
+

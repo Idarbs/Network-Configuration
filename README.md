@@ -29,6 +29,8 @@ The servers have manually configured addresses; the first 10 usable IP addresses
 The default gateways of the end hosts are configured to be the Virtual IP used by both routers. Router 2 is configured as the active router, and Router 3 is configured as the standby router. Preemption is also enabled.<br/>
 <img width="502" height="400" alt="image" src="https://github.com/user-attachments/assets/0f477a59-2110-4ae9-9e56-d420b94ccdca" /><br/>
 <img width="512" height="350" alt="image" src="https://github.com/user-attachments/assets/0001f96f-04c2-4931-ae07-6f69db236323" /><br/>
+<img width="413" height="200" alt="image" src="https://github.com/user-attachments/assets/da363e33-d047-46a0-97f4-d5da92a2980a" /><br/>
+
 
 Logging is also enabled and is sent to the server from the routers. All alerts will be sent to the server regardless of severity. <br/>
 <img width="659" height="564" alt="image" src="https://github.com/user-attachments/assets/8fda4907-b288-4f7b-b8b2-e8533988fcf9" /><br/>

@@ -23,7 +23,7 @@ Port Security is enabled on the access switch; only 1 device is allowed on each 
 <img width="428" height="121" alt="image" src="https://github.com/user-attachments/assets/a3326f1d-98c3-409f-94cd-a09e0baa44e1" /><br/>
 
 #Office
-<img width="563" height="634" alt="image" src="https://github.com/user-attachments/assets/44b7b5f1-36e4-48d2-9ca2-3b4fedc8ca2a" />
+<img width="563" height="634" alt="image" src="https://github.com/user-attachments/assets/44b7b5f1-36e4-48d2-9ca2-3b4fedc8ca2a" /> <br/>
 Multiple hosts connected to access switches, with a couple of servers running, and two routers configured with HSRP as well as being DHCP servers. <br/>
 The servers have manually configured addresses; the first 10 usable IP addresses are excluded from the DHCP pool. <br/>
 The default gateways of the end hosts are configured to be the Virtual IP used by both routers. <br/>

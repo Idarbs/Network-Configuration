@@ -1,4 +1,4 @@
-<img width="434" height="298" alt="image" src="https://github.com/user-attachments/assets/76872b0f-4698-4d6e-aab8-2787b928404d" /># Home Lab Networking
+# Home Lab Networking
 This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More.
 
 ## Table Of Contents

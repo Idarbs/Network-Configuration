@@ -1,4 +1,4 @@
-# Home Lab Networking
+<img width="434" height="298" alt="image" src="https://github.com/user-attachments/assets/76872b0f-4698-4d6e-aab8-2787b928404d" /># Home Lab Networking
 This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More.
 
 ## Table Of Contents
@@ -40,5 +40,6 @@ The Routers are also able to access the FTP server and download files from it. <
 <img width="572" height="262" alt="image" src="https://github.com/user-attachments/assets/8599f657-7074-4dd2-bd92-6af9f4bcdbd4" /><br/>
 Rapid-PVST is enabled on all switches. All the switches have the default priority. Switch 2 becomes the Root Bridge because it has the lowest MAC Address out of the 4 switches.<br/>
 
-<img width="423" height="374" alt="image" src="https://github.com/user-attachments/assets/46740ad1-ed7c-4024-8980-6d0862b71f50" /><br/>
+<img width="434" height="298" alt="image" src="https://github.com/user-attachments/assets/9792d320-4599-4b1a-b5cb-d43649efdbdb" /><br/>
 Port Security is enabled on both access switches, with a maximum of 1 MAC Address per interface, with the one exception being the interface that has the end host and the VoIP phone.<br/>
+DHCP Snooping is also enabled on all the switches, with the interfaces connected to end hosts being untrusted, and the interfaces connected to other network devices being trusted.<br/>

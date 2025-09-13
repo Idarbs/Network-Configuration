@@ -70,5 +70,10 @@ Each interface in the OSPF routers uses a /30 mask, as well as has its network t
 For the SVIs in the ROAS network, they are advertised, and this allows each host in each VLAN to communicate with others outside their network. <br/>
 Since HSRP is configured in the office network, both routers have interfaces connected to OSPF routers in case one of the other fails and they need to reach the outside networks. <br/>
 
-
-
+# PAT
+ <img width="403" height="154" alt="image" src="https://github.com/user-attachments/assets/92918406-67c5-4853-bf91-d2f6abd35e07" /> <br/>
+ PAT is configured on this network. PAT allows for multiple end hosts to use the same IP Address, which allows us to conserve IP Addresses. <br/>
+ Both end hosts use private Class B IP Addresses inside the network, but use the Router's outside IP Address when communicating with other end hosts in other networks.<br/>
+ Before it exits the network, the packet source is the end host's private IP Address.<br/>
+ <img width="612" height="727" alt="image" src="https://github.com/user-attachments/assets/fcf3364b-bd9b-4b5c-ad55-0f1a27547bc8" /><br/>
+ The source of the IP Address is now using the Router's outside IP Address as it travels throughout the network.<br/>

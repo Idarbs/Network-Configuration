@@ -87,7 +87,7 @@ Since HSRP is configured in the office network, both routers have interfaces con
  Finally, when the packet arrives back at the router, it swaps out the destination IP Address to the host's private IP Address.<br/>
  <img width="572" height="729" alt="image" src="https://github.com/user-attachments/assets/39a6f453-59e9-425b-99ad-18cdf4aa38b8" /><br/>
 
- # Issues And Misconfigurations
+ # Issues_And_Misconfigurations
  - IPv6 Hosts occasionally lose connectivity; some PCs can ping each other, while others cannot. Reopening the labs fixes it (sometimes).
  - When putting the SVIs in OSPv3 areas, hosts lose connectivity.
  - HSRP for IPv6 isn't supported (from what I know), meaning SVIs are not redundant.

@@ -81,3 +81,4 @@ Since HSRP is configured in the office network, both routers have interfaces con
  When the reply is sent back to the host, it uses the Router's IP Addresses as its destination IP.<br/>
  <img width="575" height="706" alt="image" src="https://github.com/user-attachments/assets/9925c0a3-2219-41f2-9783-b78cd273adf7" /><br/>
  Finally, when the packet arrives back at the router, it swaps out the destination IP Address to the host's private IP Address.<br/>
+ <img width="572" height="729" alt="image" src="https://github.com/user-attachments/assets/39a6f453-59e9-425b-99ad-18cdf4aa38b8" /><br/>

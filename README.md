@@ -1,9 +1,9 @@
 # Networking Project
 This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More. <br/>
-Feel free to check out the Packet Tracer file to see every network device's configuration! <br/>
 
 # Overview
 <img width="1543" height="505" alt="image" src="https://github.com/user-attachments/assets/4e1c898b-d3d4-4871-9bc7-12147a6d1571" /><br/>
+Feel free to check out the Packet Tracer file to see every network device's configuration! <br/>
 
 ## Table Of Contents
 
@@ -89,11 +89,13 @@ Since HSRP is configured in the office network, both routers have interfaces con
 
  # Issues_And_Misconfigurations
  - IPv6 Hosts occasionally lose connectivity; some PCs can ping each other, while others cannot. Reopening the labs fixes it (sometimes).
- - When putting the SVIs in OSPv3 areas, hosts lose connectivity. Removing the areas and reopening the lab seems to fix the connectivity.
- - HSRP for IPv6 isn't supported (from what I know), meaning SVIs are not redundant.
- - NTP for IPv6 cannot be configured.
+ - When putting the SVIs in OSPv3 areas, hosts lose connectivity. Removing the areas and reopening the lab seems to fix the connectivity, but this also means the SVIs cannot be advertised.
+ - HSRP for IPv6 isn't supported (from what I know), meaning SVIs are not currently redundant.
+ - NTP for IPv6 cannot be configured (CLI does not give the option to input an IPv6 address).
  - When opening the lab, the first few pings won't work (ARP takes a while).
  - FTP downloads are slow (I'm assuming this is a packet tracer issue).
- - OSPv3 for IPv6 isn't configured properly
+ - OSPv3 for IPv6 isn't configured properly.
  - Due to how large the lab is, it can sometimes act weird, especially when it has been open for a while.
  - Because of how large the lab is, when using simulation mode, it is flooded with NDP, STP, OSPF, HSRP, and other protocols, making it hard to see the specific packet you are looking for.
+ - DHCP will sometimes give PCs different addresses than before (PC0 will get 10.32.0.11, other times it will get 10.32.0.12); it's not really an issue, just something to note.
+ - End hosts using DHCP have to be manually set to DHCP mode every time the lab is opened.

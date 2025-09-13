@@ -3,7 +3,7 @@ This project showcases my ability to configure networks and network devices. It 
 Feel free to check out the Packet Tracer file to see every network device's configuration! <br/>
 
 # Overview
- <img width="1562" height="512" alt="image" src="https://github.com/user-attachments/assets/c787f459-25e0-495c-af0e-ceaf3cbb4ed5" /><br/>
+<img width="1543" height="505" alt="image" src="https://github.com/user-attachments/assets/4e1c898b-d3d4-4871-9bc7-12147a6d1571" /><br/>
 
 ## Table Of Contents
 

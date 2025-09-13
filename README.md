@@ -7,7 +7,7 @@ Feel free to check out the Packet Tracer file to see every network device's conf
 - [ROAS Configuration](#ROAS)
 - [Office Configuration](#Office)
 - [Collapsed Core & IPv6 Configuration](#Collapsed)
-- [OSPF Configurations](#OPSF)
+- [OSPF Configurations](#OSPF)
 - [PAT Configuration](#PAT)
 - [Known Issues & Misconfigurations](#Issues)
 

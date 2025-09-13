@@ -12,7 +12,7 @@ Feel free to check out the Packet Tracer file to see every network device's conf
 - [Collapsed Core & IPv6 Configuration](#Collapsed)
 - [OSPF Configurations](#OSPF)
 - [PAT Configuration](#PAT)
-- [Known Issues & Misconfigurations](#Issues_And_Missconfigurations)
+- [Known Issues & Misconfigurations](#Issues_And_Misconfigurations)
 
 # ROAS
 <img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" /><br/>

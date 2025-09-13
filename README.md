@@ -89,9 +89,11 @@ Since HSRP is configured in the office network, both routers have interfaces con
 
  # Issues_And_Misconfigurations
  - IPv6 Hosts occasionally lose connectivity; some PCs can ping each other, while others cannot. Reopening the labs fixes it (sometimes).
- - When putting the SVIs in OSPv3 areas, hosts lose connectivity.
+ - When putting the SVIs in OSPv3 areas, hosts lose connectivity. Removing the areas and reopening the lab seems to fix the connectivity.
  - HSRP for IPv6 isn't supported (from what I know), meaning SVIs are not redundant.
  - NTP for IPv6 cannot be configured.
  - When opening the lab, the first few pings won't work (ARP takes a while).
  - FTP downloads are slow (I'm assuming this is a packet tracer issue).
  - OSPv3 for IPv6 isn't configured properly
+ - Due to how large the lab is, it can sometimes act weird, especially when it has been open for a while.
+ - Because of how large the lab is, when using simulation mode, it is flooded with NDP, STP, OSPF, HSRP, and other protocols, making it hard to see the specific packet you are looking for.

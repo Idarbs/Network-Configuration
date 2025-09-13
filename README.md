@@ -2,6 +2,9 @@
 This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More. <br/>
 Feel free to check out the Packet Tracer file to see every network device's configuration! <br/>
 
+# Overview
+ <img width="1806" height="512" alt="image" src="https://github.com/user-attachments/assets/dfd6782f-08c2-4098-9f5e-a84a6e51a354" /><br/>
+
 ## Table Of Contents
 
 - [ROAS Configuration](#ROAS)

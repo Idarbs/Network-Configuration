@@ -28,7 +28,7 @@ Port Security is enabled on the access switch; only 1 device is allowed on each 
 <img width="563" height="634" alt="image" src="https://github.com/user-attachments/assets/44b7b5f1-36e4-48d2-9ca2-3b4fedc8ca2a" /><br/>
 Multiple hosts connected to access switches, with a couple of servers running, and two routers configured with HSRP as well as being DHCP servers.<br/>
 The servers have manually configured addresses; the first 10 usable IP addresses are excluded from the DHCP pool. <br/>
-The default gateways of the end hosts are configured to be the Virtual IP used by both routers. Router 2 is configured as the active router, and Router 3 is configured as the standby router. Preemption is also enabled.<br/>
+The default gateways of the end hosts are configured to be the Virtual IP Address used by both routers. Router 2 is configured as the active router, and Router 3 is configured as the standby router. Preemption is also enabled.<br/>
 <img width="502" height="400" alt="image" src="https://github.com/user-attachments/assets/0f477a59-2110-4ae9-9e56-d420b94ccdca" /><br/>
 <img width="512" height="350" alt="image" src="https://github.com/user-attachments/assets/0001f96f-04c2-4931-ae07-6f69db236323" /><br/>
 <img width="413" height="200" alt="image" src="https://github.com/user-attachments/assets/da363e33-d047-46a0-97f4-d5da92a2980a" /><br/>
@@ -47,7 +47,7 @@ Rapid-PVST is enabled on all switches. All the switches have the default priorit
 
 <img width="434" height="298" alt="image" src="https://github.com/user-attachments/assets/9792d320-4599-4b1a-b5cb-d43649efdbdb" /><br/>
 Port Security is enabled on both access switches, with a maximum of 1 MAC Address per interface, with the one exception being the interface that has the end host and the VoIP phone.<br/>
-DHCP Snooping is also enabled on all the switches, with the interfaces connected to end hosts being untrusted, and the interfaces connected to other network devices being trusted.<br/>
+DHCP Snooping is also enabled on all the switches, with the interfaces connected to end hosts being untrusted and the interfaces connected to other network devices being trusted.<br/>
 
 # Collapsed
 <img width="655" height="622" alt="image" src="https://github.com/user-attachments/assets/51b894cf-23c3-42d6-a890-1ebbb86624c1" /> <br/>
@@ -60,5 +60,15 @@ Each SVI uses the first available address of the respective VLAN Subnet, and all
 A Layer 3 Etherchannel is also configured for load balancing between the distribution switches, as well as OSPFv3 enabled on the routers and distribution switches. An NTP Server is also supposed to be enabled on the network, but due to Packet Tracer's limitations, IPv6 NTP is not supported. <br/>
 HSRP would have also been configured on each SVI to allow for redundancy between the two distribution switches in case one fails. <br/>
 This network in particular has a lot of issues, which are further discussed in Known Issues & Misconfigurations. <br/>
+
+# OSPF
+<img width="791" height="269" alt="image" src="https://github.com/user-attachments/assets/b598f8d3-1099-428b-b195-3e2041fd77bb" /><br/>
+OSPF has been configured and allows hosts in ROAS and the Office network to communicate with each other. <br/>
+There are multiple OSPF routers to allow for redundancy. <br/>
+Both sides can communicate with each other. <br/>
+Each interface in the OSPF routers uses a /30 mask, as well as has its network types set as point-to-point to skip the BR/BDR elections. <br/>
+For the SVIs in the ROAS network, they are advertised, and this allows each host in each VLAN to communicate with others outside their network. <br/>
+Since HSRP is configured in the office network, both routers have interfaces connected to OSPF routers in case one of the other fails and they need to reach the outside networks. <br/>
+
 
 

@@ -1,5 +1,6 @@
 # Home Lab Networking
-This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More.
+This project showcases my ability to configure networks and network devices. It also showcases my knowledge on topics such as: Dynamic Routing, Inter-VLAN Routing, IPv4 & IPv6, Spanning Tree, DHCP, First-Hop Redundancy, EtherChannels, Port Security, Logging Messages, DNS, and More. <br/>
+Feel free to check out the Packet Tracer file to see every network device's configuration! <br/>
 
 ## Table Of Contents
 
@@ -56,7 +57,7 @@ Each SVI uses the first available address of the respective VLAN Subnet, and all
 <img width="426" height="194" alt="image" src="https://github.com/user-attachments/assets/7423cdc1-c7a5-4873-92a4-fbf5102b1594" /><br/>
 <img width="408" height="197" alt="image" src="https://github.com/user-attachments/assets/eb365f07-5cdf-49a3-a215-c11fe2c50b0b" /><br/>
 
-A Layer 3 Etherchannel is also configured for load balancing between the distribution switches, as well as OSPFv3 enabled on the routers and distribution switches. An NTP is also supposed to be enabled on the network, but due to packet tracer's limitations, IPv6 NTP is not supported. <br/>
+A Layer 3 Etherchannel is also configured for load balancing between the distribution switches, as well as OSPFv3 enabled on the routers and distribution switches. An NTP Server is also supposed to be enabled on the network, but due to Packet Tracer's limitations, IPv6 NTP is not supported. <br/>
 HSRP would have also been configured on each SVI to allow for redundancy between the two distribution switches in case one fails. <br/>
 This network in particular has a lot of issues, which are further discussed in Known Issues & Misconfigurations. <br/>
 

@@ -12,7 +12,7 @@ Feel free to check out the Packet Tracer file to see every network device's conf
 - [Collapsed Core & IPv6 Configuration](#Collapsed)
 - [OSPF Configurations](#OSPF)
 - [PAT Configuration](#PAT)
-- [Known Issues & Misconfigurations](#Issues)
+- [Known Issues & Misconfigurations](#Issues_And_Missconfigurations)
 
 # ROAS
 <img width="592" height="383" alt="image" src="https://github.com/user-attachments/assets/991c1a0d-980d-4561-877a-472a8a0c64f2" /><br/>
@@ -71,7 +71,7 @@ There are multiple OSPF routers to allow for redundancy. <br/>
 Both sides can communicate with each other. <br/>
 Each interface in the OSPF routers uses a /30 mask, as well as has its network types set as point-to-point to skip the BR/BDR elections. <br/>
 For the SVIs in the ROAS network, they are advertised, and this allows each host in each VLAN to communicate with others outside their network. <br/>
-Since HSRP is configured in the office network, both routers have interfaces connected to OSPF routers in case one of the other fails and they need to reach the outside networks. <br/>
+Since HSRP is configured in the office network, both routers have interfaces connected to OSPF routers in case one of the other fails, and they need to reach the outside networks. <br/>
 
 # PAT
  <img width="403" height="154" alt="image" src="https://github.com/user-attachments/assets/92918406-67c5-4853-bf91-d2f6abd35e07" /> <br/>
@@ -87,4 +87,11 @@ Since HSRP is configured in the office network, both routers have interfaces con
  Finally, when the packet arrives back at the router, it swaps out the destination IP Address to the host's private IP Address.<br/>
  <img width="572" height="729" alt="image" src="https://github.com/user-attachments/assets/39a6f453-59e9-425b-99ad-18cdf4aa38b8" /><br/>
 
- # Issues
+ # Issues And Misconfigurations
+ - IPv6 Hosts occasionally lose connectivity; some PCs can ping each other, while others cannot. Reopening the labs fixes it (sometimes).
+ - When putting the SVIs in OSPv3 areas, hosts lose connectivity.
+ - HSRP for IPv6 isn't supported (from what I know), meaning SVIs are not redundant.
+ - NTP for IPv6 cannot be configured.
+ - When opening the lab, the first few pings won't work (ARP takes a while).
+ - FTP downloads are slow (I'm assuming this is a packet tracer issue).
+ - OSPv3 for IPv6 isn't configured properly

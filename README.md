@@ -30,6 +30,7 @@ Port Security is enabled on the access switch; only 1 device is allowed on each 
 # Office
 <img width="563" height="634" alt="image" src="https://github.com/user-attachments/assets/44b7b5f1-36e4-48d2-9ca2-3b4fedc8ca2a" /><br/>
 Multiple hosts connected to access switches, with a couple of servers running, and two routers configured with HSRP as well as being DHCP servers.<br/>
+VTP is enabled on the switches, all of them running version 2, and 3 of three switches running in client mode, and one switch running in server mode.
 The servers have manually configured addresses; the first 10 usable IP addresses are excluded from the DHCP pool. <br/>
 The default gateways of the end hosts are configured to be the Virtual IP Address used by both routers. Router 2 is configured as the active router, and Router 3 is configured as the standby router. Preemption is also enabled.<br/>
 <img width="502" height="400" alt="image" src="https://github.com/user-attachments/assets/0f477a59-2110-4ae9-9e56-d420b94ccdca" /><br/>

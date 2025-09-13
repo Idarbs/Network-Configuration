@@ -76,6 +76,7 @@ Since HSRP is configured in the office network, both routers have interfaces con
 # PAT
  <img width="403" height="154" alt="image" src="https://github.com/user-attachments/assets/92918406-67c5-4853-bf91-d2f6abd35e07" /> <br/>
  PAT is configured on this network. PAT allows for multiple end hosts to use the same IP Address, which allows us to conserve IP Addresses. <br/>
+ The ACL configured on the router allows for any host in the 172.31.10.0 subnet to have its IP Address translated.
  Both end hosts use private Class B IP Addresses inside the network, but use the Router's outside IP Address when communicating with other end hosts in other networks.<br/>
  Before it exits the network, the packet source is the end host's private IP Address.<br/>
  <img width="612" height="727" alt="image" src="https://github.com/user-attachments/assets/fcf3364b-bd9b-4b5c-ad55-0f1a27547bc8" /><br/>
@@ -85,3 +86,5 @@ Since HSRP is configured in the office network, both routers have interfaces con
  <img width="575" height="706" alt="image" src="https://github.com/user-attachments/assets/9925c0a3-2219-41f2-9783-b78cd273adf7" /><br/>
  Finally, when the packet arrives back at the router, it swaps out the destination IP Address to the host's private IP Address.<br/>
  <img width="572" height="729" alt="image" src="https://github.com/user-attachments/assets/39a6f453-59e9-425b-99ad-18cdf4aa38b8" /><br/>
+
+ # Issues
